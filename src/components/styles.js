@@ -14,18 +14,14 @@ export const AppWrapper = styled.div`
 export const TagWrapper = styled.div`
   display: flex;
   align-items: center;
-
   width: 500px;
   height: 80px;
   border-radius: 300px;
   padding: 0px 25px;
   margin-bottom: 25px;
-
   cursor: pointer;
   user-select: none;
-
   background-color: rgba(0, 0, 0, 0.4);
-
   &:hover {
     background-color: rgba(0, 0, 0, 0.8);
   }
@@ -58,7 +54,6 @@ export const ButtonsWrapper = styled.div`
 export const Button = styled.button`
   background: ${(props) => props.color ?? "white"};
   color: ${(props) => props.textColor ?? "black"};
-
   display: inline-block;
   padding: 15px 25px;
   font-size: 24px;
@@ -71,11 +66,9 @@ export const Button = styled.button`
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
-
   &:hover {
     box-shadow: 0 9px #aaa;
   }
-
   &:active {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
